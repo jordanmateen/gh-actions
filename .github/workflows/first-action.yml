@@ -2,7 +2,7 @@ name: First Workflow
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: mac-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Pint Greeting
         run: echo "Hello World, How are you today"
